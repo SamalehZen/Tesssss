@@ -23,7 +23,7 @@ export default function LikedPage() {
   return (
     <div className="min-h-screen bg-background p-4 md:p-8 pt- safe-top">
       {/* Header */}
-      <header className="mb-6 flex items-center justify-between sticky top-0 z-30 bg-background/80 backdrop-blur:xl py-4 -mx-4 px-4 md:mx-0 md:px-0">
+      <header className="mb-6 flex items-center justify-between sticky top-0 z-30 bg-background/80 backdrop-blur-xl py-4 -mx-4 px-4 md:mx-0 md:px-0">
         <div className="h-10 w-10 overflow-hidden rounded-full border-2 border-white/10 relative">
           <Image
             src={CURRENT_USER.avatar}
